@@ -1,0 +1,44 @@
+.DetailPageContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffd6e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.DetailCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.DetailCard img {
+    width: 200px;
+    height: 200px;
+}
+
+.DetailInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.BackButton {
+    padding: 8px;
+    background-color: #FABADA;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    .DetailCard img {
+        width: 150px;
+        height: 150px;
+    }
+}

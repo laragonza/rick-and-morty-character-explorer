@@ -1,0 +1,37 @@
+.FiltrosContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #FABADA;
+}
+
+.FiltrosContainer button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.NameFilterContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.NameFilterContainer input {
+    padding: 8px;
+}
+
+@media (max-width: 700px) {
+    .FiltrosContainer {
+        flex-direction: column;
+    }
+
+    .NameFilterContainer {
+        flex-direction: column;
+    }
+}
